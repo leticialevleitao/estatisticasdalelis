@@ -7,19 +7,8 @@
 import numpy as np
 import scipy 
 
-
-
-
-
-# In[4]:
-
-
 from scipy.stats import normaltest
 
-
-# In[10]:
-
-
 import pandas as pd
 
 # Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo CSV
@@ -32,16 +21,6 @@ df = pd.read_csv(caminho_arquivo)
 print(df.head())
 
 
-
-
-
-
-
-# In[8]:
-
-# In[11]:
-
-
 import pandas as pd
 
 # Substitua 'seu_arquivo.csv' pelo caminho do seu arquivo CSV
@@ -52,19 +31,11 @@ df = pd.read_csv(caminho_arquivo)
 
 # Exiba as primeiras linhas do DataFrame
 print(df.head())
-
-
-
-# In[12]:
-
 
 dataframe = pd.read_csv('statdisk_data.csv')
 
 # A coluna desejada com os dados será acessada usando o nome da coluna no DataFrame.
 coluna_desejada = dataframe['NomeDaColuna']
-
-
-# In[14]:
 
 
 dataframe = pd.read_csv('/Users/joaonolasco/statdisk_data.csv')
@@ -74,22 +45,12 @@ coluna_desejada = dataframe['NomeDaColuna']
 
 array_de_dados = np.array(coluna_desejada)
 
-
-# In[18]:
-
-
 df = pd.read_csv('file:///Users/joaonolasco/Downloads/statdisk_data.csv')
-
-
-# In[19]:
 
 
 from scipy import stats
 nomes_colunas = df.columns
 print(nomes_colunas)
-
-
-# In[20]:
 
 
 dados = df['Index(['1', '2', '3', '4', '5'], dtype='object')']
