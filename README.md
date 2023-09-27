@@ -1,13 +1,3 @@
 # Estatísticas da Lelis
-Código desenvolvido para ler uma base de dados fornecida e elaborar conclusões baseadas nas informações fornecidas.
+Código desenvolvido para ler uma base de dados fornecida e elaborar conclusões baseadas nas informações fornecidas. Desenvolvido para a disciplina de Estatística e Probabilidade para computação (IF971) do CIn-UFPE. 
 
-## Resultados baseados em 'CPU.txt'
-Medidas de Centralidade:
-
-	Media: 65.76683125
- 
-	Mediana: 65.10249999999999
- 
-Medidas de Dispersao:
-
-	Desvio Padrao: 14.968868265477186
